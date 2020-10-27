@@ -12,7 +12,7 @@ library(tidyverse)
 
 ```{r}
 ggplot(data = mpg, aes(x = class, y = cty)) +
-	geom_jitter(aes(color = class), alpha = 0.5) +
+	geom_jitter(aes(color = class), alpha = 0.5, size = 4) +
 	labs(x = "car class", y = "City gas mileage (mpg)")
 
 ```
